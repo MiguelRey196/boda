@@ -88,8 +88,8 @@
     align-items: center; /* Asegura que el contenido interno esté centrado */
     justify-content: center; /* Opcional: centra verticalmente si el contenedor tiene altura suficiente */
     width: 100%; /* Asegura */
-    -webkit-text-stroke: 7.5px #C0C0C0;
-     -webkit-text-stroke: .25px #C0C0C0;
+    -webkit-text-stroke: 7.5px #ff8fab;
+     -webkit-text-stroke: .25px #ff8fab;
      text-shadow: 
     2px 2px 2px rgba(0, 0, 0, 1); /* Sombra para dar más profundidad */
 }
