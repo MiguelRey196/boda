@@ -4,7 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 function actualizarContador() {
-    const fechaObjetivo = new Date("2025-05-03T14:00:00").getTime();
+    const fechaObjetivo = new Date("2025-05-03T01:00:00").getTime();
     const ahora = new Date().getTime();
     const diferencia = fechaObjetivo - ahora;
 
@@ -15,7 +15,7 @@ function actualizarContador() {
         const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
         document.getElementById("contador").innerHTML = `<h1 class="allura-regular">${dias}d ${horas}h ${minutos}m ${segundos}s</h1>`;
     } else {
-        document.getElementById("contador").innerHTML = "¡La fecha ha llegado!";
+        document.getElementById("contador").innerHTML = "¡El día ha llegado!";
     }
 }
 setInterval(actualizarContador, 1000);
